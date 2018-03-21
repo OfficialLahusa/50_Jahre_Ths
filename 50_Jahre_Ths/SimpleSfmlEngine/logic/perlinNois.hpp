@@ -1,6 +1,6 @@
 #pragma once
-#include <vector>
 #include <array>
+#include <vector>
 
 namespace sse
 {
@@ -142,5 +142,5 @@ namespace sse
 		
 
 
-	}
-}
+	} // namespace nois
+}  // namespace sse

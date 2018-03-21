@@ -111,4 +111,4 @@ namespace sse
 	private:
 		std::array<T, T_X * T_Y> m_data;
 	};
-}
+}  // namespace sse

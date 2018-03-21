@@ -1,17 +1,17 @@
 #pragma once
-#include <string>
 #include <sstream>
+#include <string>
 
-#if __has_include(<Windows.h>)
-#include <Windows.h>
+#if __has_include(<Windows.hpp>)
+#include <Windows.hpp>
 #define setConsoleTextColor(color) SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
 #else
 #define setConsoleTextColor(color) 
 #endif
 
 
-#if __has_include(<intrin.h>)
-#include <intrin.h>
+#if __has_include(<intrin.hpp>)
+#include <intrin.hpp>
 #define DEBUG_BREAK __debugbreak();
 #else
 #define DEBUG_BREAK
@@ -21,7 +21,7 @@ namespace sse
 {
 	namespace logger
 	{
-		typedef unsigned char byte;
+		using byte = unsigned char;
 
 		enum class logLevel : unsigned short
 		{
@@ -87,5 +87,5 @@ namespace sse
 			}
 			setConsoleTextColor(15);*/
 		}
-	}
-}
+	} // namespace logger
+}  // namespace sse

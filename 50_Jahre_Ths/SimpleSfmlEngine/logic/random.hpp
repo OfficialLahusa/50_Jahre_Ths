@@ -35,5 +35,5 @@ namespace sse
 			std::uniform_real_distribution<T> dist(min, max);
 			return dist(mt);
 		}
-	}
-}
+	}  // namespace random
+} // namespace sse

@@ -15,66 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\States\SplashState.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\core.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\dataTypes.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\engine.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\logic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\utils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\logic\mathConstants.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\logic\perlinNois.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\logic\random.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\dataTypes\AnimatedSprite.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\dataTypes\clock.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\dataTypes\matrix.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\dataTypes\poolAllocator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\dataTypes\rng.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\dataTypes\stackAllocator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\core\AssetManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\core\Game.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\core\InputManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\core\State.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SimpleSfmlEngine\core\StateMachine.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -357,7 +297,61 @@
     <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\SoundStream.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\GLOBAL_DEFINITIONS.h">
+    <ClInclude Include="src\States\SplashState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\logic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\engine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\dataTypes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\core.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\logic\mathConstants.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\logic\perlinNois.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\logic\random.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\dataTypes\AnimatedSprite.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\dataTypes\clock.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\dataTypes\matrix.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\dataTypes\rng.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\core\AssetManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\core\Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\core\State.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\core\InputManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\core\StateMachine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GLOBAL_DEFINITIONS.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -427,6 +421,7 @@
     <None Include="Dependencies\x64\SFML\lib\static-std\sfml-network-s-d.pdb" />
     <None Include="Dependencies\x64\SFML\lib\static-std\sfml-system-s-d.pdb" />
     <None Include="Dependencies\x64\SFML\lib\static-std\sfml-window-s-d.pdb" />
+    <None Include=".clang-tidy" />
   </ItemGroup>
   <ItemGroup>
     <Font Include="Resources\fonts\ka1.ttf" />

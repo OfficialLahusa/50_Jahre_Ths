@@ -12,13 +12,13 @@ namespace sse
 		public:
 
 			rng()
-				: randomDevice(), mt(randomDevice())
+				:  mt(randomDevice())
 			{
 
 			}
 
-			rng(unsigned int seed)
-				: randomDevice(), mt(seed)
+			explicit rng(unsigned int seed)
+				:  mt(seed)
 			{
 
 			}
@@ -51,4 +51,4 @@ namespace sse
 				return dist(mt);
 			}
 		};
-}
+} // namespace sse

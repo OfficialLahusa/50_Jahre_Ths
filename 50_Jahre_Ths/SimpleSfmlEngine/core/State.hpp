@@ -15,4 +15,4 @@ namespace sse
 		virtual bool Pause() { return true; }
 		virtual bool Resume() { return true; }
 	};
-}
+}  // namespace sse

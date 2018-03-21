@@ -1,13 +1,13 @@
 #pragma once
 
+#include <SFML/Graphics.hpp>
 #include <functional>
 #include <memory>
-#include <SFML/Graphics.hpp>
 #include <string>
 
-#include "StateMachine.h"
-#include "AssetManager.h"
-#include "InputManager.h"
+#include "AssetManager.hpp"
+#include "InputManager.hpp"
+#include "StateMachine.hpp"
 
 namespace sse
 {
@@ -19,14 +19,14 @@ namespace sse
 		InputManager input;
 	};
 
-	typedef std::shared_ptr<GameData> GameDataRef;
+	using GameDataRef = std::shared_ptr<GameData>;
 
 	class Game
 	{
 	public:
-		Game(unsigned int width, unsigned int height, std::string title, std::function<void(GameDataRef data)> runState)
+		Game(const std::string& title, const std::function<void(GameDataRef data)>& runState)
 		{
-			this->m_data->window.create(sf::VideoMode(width, height), title, sf::Style::Close | sf::Style::Titlebar);
+			this->m_data->window.create(sf::VideoMode(sf::VideoMode::getDesktopMode().width, sf::VideoMode::getDesktopMode().height), title, sf::Style::Close | sf::Style::Titlebar | sf::Style::Resize);
 			this->m_data->window.setVerticalSyncEnabled(true);
 
 			runState(this->m_data);
@@ -47,7 +47,7 @@ namespace sse
 				if (!this->m_data->machine.ProcessStateChanges()) { return; }
 				float dt = m_clock.restart().asSeconds();
 				
-				//TODO: handle return type
+				// TODO(Bernstein): handle return type
 				if (!this->m_data->machine.GetActiveState()->HandleInput(dt)) { return; }
 				if (!this->m_data->machine.GetActiveState()->Update(dt)) { return; }
 
@@ -56,4 +56,4 @@ namespace sse
 			}
 		}
 	};
-}
+}  // namespace sse

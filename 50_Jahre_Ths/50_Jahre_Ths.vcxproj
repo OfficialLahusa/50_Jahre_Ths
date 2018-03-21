@@ -234,27 +234,25 @@
     <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\Window.hpp" />
     <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\WindowHandle.hpp" />
     <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\WindowStyle.hpp" />
-    <ClInclude Include="SimpleSfmlEngine\core.h" />
-    <ClInclude Include="SimpleSfmlEngine\core\AssetManager.h" />
-    <ClInclude Include="SimpleSfmlEngine\core\Game.h" />
-    <ClInclude Include="SimpleSfmlEngine\core\InputManager.h" />
-    <ClInclude Include="SimpleSfmlEngine\core\State.h" />
-    <ClInclude Include="SimpleSfmlEngine\core\StateMachine.h" />
-    <ClInclude Include="SimpleSfmlEngine\dataTypes.h" />
-    <ClInclude Include="SimpleSfmlEngine\dataTypes\AnimatedSprite.h" />
-    <ClInclude Include="SimpleSfmlEngine\dataTypes\clock.h" />
-    <ClInclude Include="SimpleSfmlEngine\dataTypes\matrix.h" />
-    <ClInclude Include="SimpleSfmlEngine\dataTypes\poolAllocator.h" />
-    <ClInclude Include="SimpleSfmlEngine\dataTypes\rng.h" />
-    <ClInclude Include="SimpleSfmlEngine\dataTypes\stackAllocator.h" />
-    <ClInclude Include="SimpleSfmlEngine\engine.h" />
-    <ClInclude Include="SimpleSfmlEngine\logic.h" />
-    <ClInclude Include="SimpleSfmlEngine\logic\mathConstants.h" />
-    <ClInclude Include="SimpleSfmlEngine\logic\perlinNois.h" />
-    <ClInclude Include="SimpleSfmlEngine\logic\random.h" />
-    <ClInclude Include="SimpleSfmlEngine\utils.h" />
-    <ClInclude Include="src\GLOBAL_DEFINITIONS.h" />
-    <ClInclude Include="src\States\SplashState.h" />
+    <ClInclude Include="SimpleSfmlEngine\core.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\core\AssetManager.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\core\Game.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\core\InputManager.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\core\State.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\core\StateMachine.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\dataTypes.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\dataTypes\AnimatedSprite.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\dataTypes\clock.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\dataTypes\matrix.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\dataTypes\rng.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\engine.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\logic.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\logic\mathConstants.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\logic\perlinNois.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\logic\random.hpp" />
+    <ClInclude Include="SimpleSfmlEngine\utils.hpp" />
+    <ClInclude Include="src\GLOBAL_DEFINITIONS.hpp" />
+    <ClInclude Include="src\States\SplashState.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SimpleSfmlEngine\logic\Collision.cpp" />
@@ -262,6 +260,7 @@
     <ClCompile Include="src\States\SplashState.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".clang-tidy" />
     <None Include="Dependencies\x64\SFML\include\SFML\Audio\SoundFileFactory.inl" />
     <None Include="Dependencies\x64\SFML\include\SFML\Graphics\Glsl.inl" />
     <None Include="Dependencies\x64\SFML\include\SFML\Graphics\Rect.inl" />

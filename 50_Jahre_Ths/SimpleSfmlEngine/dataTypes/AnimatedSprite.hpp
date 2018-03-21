@@ -1,7 +1,8 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-#include <string>
 #include <map>
+#include <string>
+#include <utility>
 #include <vector>
 
 namespace sse
@@ -19,7 +20,7 @@ namespace sse
 			float m_delay;
 		};
 
-		std::vector<AnimatedSprite::Frame>& operator[](std::string s)
+		std::vector<AnimatedSprite::Frame>& operator[](const std::string& s)
 		{
 			return m_animations[s];
 		}
@@ -27,13 +28,13 @@ namespace sse
 
 		void SetActiveAnimation(std::string str)
 		{
-			m_currentAnimation = str;
+			m_currentAnimation = std::move(str);
 		}
 
 		void Update()
 		{
 			setTexture(*m_animations[m_currentAnimation][m_frameCounter].m_texture);
-			if (m_currentAnimation != "")
+			if (!m_currentAnimation.empty())
 			{
 				if (m_currentAnimation.find(m_currentAnimation) != m_currentAnimation.back())
 				{
@@ -62,4 +63,4 @@ namespace sse
 		std::string m_currentAnimation = "";
 		sf::Clock m_clock;
 	};
-}
+}  // namespace sse

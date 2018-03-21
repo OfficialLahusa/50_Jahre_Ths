@@ -1,6 +1,6 @@
 #include <iostream>
-#include "SplashState.h"
-#include "../GLOBAL_DEFINITIONS.h"
+#include "SplashState.hpp"
+#include "../GLOBAL_DEFINITIONS.hpp"
 
 namespace sse
 {
@@ -20,7 +20,7 @@ namespace sse
 
 		m_background.setTexture(m_data->assets.GetTexture("logo"));
 		m_data->assets.GetShader("pixelate").setUniform("texture", sf::Shader::CurrentTexture);
-		m_background.setScale({ SCALE_FACTOR, SCALE_FACTOR });
+		m_background.setScale({ (float)m_data->window.getSize().x / m_data->assets.GetTexture("logo").getSize().x, (float)m_data->window.getSize().y / m_data->assets.GetTexture("logo").getSize().y });
 		return true;
 	}
 
@@ -41,7 +41,7 @@ namespace sse
 
 	bool SplashState::Update(float dt)
 	{
-		if (m_pixel_threshold >= 0.0f)
+		if (m_pixel_threshold > 0.0f)
 		{
 			m_pixel_threshold -= 0.025f * dt;
 		}

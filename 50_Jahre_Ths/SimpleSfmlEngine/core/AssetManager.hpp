@@ -1,21 +1,21 @@
 #pragma once
+#include "../utils.hpp"
+#include <SFML/Audio.hpp>
+#include <SFML/Graphics.hpp>
 #include <fstream>
 #include <map>
 #include <sstream>
-#include <SFML/Audio.hpp>
-#include <SFML/Graphics.hpp>
-#include "../utils.h"
 
 namespace sse
 {
 	class AssetManager
 	{
 	public:
-		AssetManager() {}
-		~AssetManager() {}
+		AssetManager() = default;
+		~AssetManager() = default;
 
 
-		void LoadTexture(std::string name, std::string path)
+		void LoadTexture(const std::string& name, const std::string& path)
 		{
 			sf::Texture tex;
 
@@ -28,13 +28,13 @@ namespace sse
 				logger::logError("Failed to load texture!");
 			}
 		}
-		sf::Texture &GetTexture(std::string name)
+		sf::Texture &GetTexture(const std::string& name)
 		{
 			return this->m_textures[name];
 		}
 
 
-		void LoadFont(std::string name, std::string path)
+		void LoadFont(const std::string& name, const std::string& path)
 		{
 			sf::Font font;
 
@@ -43,13 +43,13 @@ namespace sse
 				this->m_fonts[name] = font;
 			}
 		}
-		sf::Font &GetFont(std::string name)
+		sf::Font &GetFont(const std::string& name)
 		{
 			return this->m_fonts[name];
 		}
 
 
-		void LoadSoundBuffer(std::string name, std::string path)
+		void LoadSoundBuffer(const std::string& name, const std::string& path)
 		{
 			sf::SoundBuffer soundBuffer;
 
@@ -58,12 +58,12 @@ namespace sse
 				this->m_soundBuffer[name] = soundBuffer;
 			}
 		}
-		sf::SoundBuffer &GetSoundBuffer(std::string name)
+		sf::SoundBuffer &GetSoundBuffer(const std::string& name)
 		{
 			return this->m_soundBuffer[name];
 		}
 
-		void LoadShaderFile(std::string name, std::string path)
+		void LoadShaderFile(const std::string& name, const std::string& path)
 		{
 			std::ifstream fin(path);
 
@@ -97,7 +97,7 @@ namespace sse
 
 			m_shaders[name].loadFromMemory(ss[0].str(), ss[1].str());
 		}
-		sf::Shader &GetShader(std::string name)
+		sf::Shader &GetShader(const std::string& name)
 		{
 			return this->m_shaders[name];
 		}
@@ -109,4 +109,4 @@ namespace sse
 		std::map<std::string, sf::SoundBuffer> m_soundBuffer;
 		std::map<std::string, sf::Shader> m_shaders;
 	};
-}
+}  // namespace sse

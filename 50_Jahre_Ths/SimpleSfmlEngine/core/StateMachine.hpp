@@ -3,17 +3,17 @@
 #include <memory>
 #include <stack>
 
-#include "State.h"
+#include "State.hpp"
 
 namespace sse
 {
-	typedef std::unique_ptr<State> StateRef;
+	using StateRef = std::unique_ptr<State>;
 
 	class StateMachine
 	{
 	public:
-		StateMachine() {}
-		~StateMachine() {}
+		StateMachine() = default;
+		~StateMachine() = default;
 
 		void AddState(StateRef newState, bool isReplacing = true)
 		{
@@ -80,4 +80,4 @@ namespace sse
 		bool m_isAdding = false;
 		bool m_isReplacing = true;
 	};
-}
+}  // namespace sse

@@ -1,9 +1,9 @@
 #pragma once
 #include <SFML\Graphics.hpp>
 
-#include "logic\mathConstants.h"
-#include "logic\random.h"
-#include "logic\perlinNois.h"
+#include "logic\mathConstants.hpp"
+#include "logic\perlinNois.hpp"
+#include "logic\random.hpp"
 
 namespace sse
 {
@@ -42,5 +42,5 @@ namespace sse
 		/// Supports scaling and rotation
 		//////
 		bool BoundingBoxTest(const sf::Sprite& Object1, const sf::Sprite& Object2);
-	}
-}
+	}  // namespace Collision
+}  // namespace sse
