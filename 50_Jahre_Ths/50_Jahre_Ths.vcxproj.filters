@@ -14,4 +14,474 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\States\SplashState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\dataTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\logic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\logic\mathConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\logic\perlinNois.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\logic\random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\dataTypes\AnimatedSprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\dataTypes\clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\dataTypes\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\dataTypes\poolAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\dataTypes\rng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\dataTypes\stackAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\core\AssetManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\core\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\core\InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\core\State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSfmlEngine\core\StateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Main.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Network.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\OpenGL.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\Context.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\ContextSettings.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\Event.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\Export.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\GlResource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\Joystick.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\Keyboard.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\Mouse.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\Sensor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\Touch.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\VideoMode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\Window.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\WindowHandle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Window\WindowStyle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\Clock.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\Err.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\Export.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\FileInputStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\InputStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\Lock.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\MemoryInputStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\Mutex.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\NativeActivity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\NonCopyable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\Sleep.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\String.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\Thread.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\ThreadLocal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\ThreadLocalPtr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\Time.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\Utf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\Vector2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\System\Vector3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Network\Export.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Network\Ftp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Network\Http.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Network\IpAddress.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Network\Packet.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Network\Socket.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Network\SocketHandle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Network\SocketSelector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Network\TcpListener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Network\TcpSocket.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Network\UdpSocket.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\BlendMode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\CircleShape.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Color.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\ConvexShape.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Drawable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Export.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Font.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Glsl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Glyph.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\PrimitiveType.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Rect.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\RectangleShape.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\RenderStates.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\RenderTarget.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\RenderTexture.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\RenderWindow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Shape.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Sprite.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Text.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Texture.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Transform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Transformable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\Vertex.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\VertexArray.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Graphics\View.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\AlResource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\Export.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\InputSoundFile.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\Listener.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\Music.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\OutputSoundFile.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\Sound.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\SoundBuffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\SoundBufferRecorder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\SoundFileFactory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\SoundFileReader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\SoundFileWriter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\SoundRecorder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\SoundSource.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\x64\SFML\include\SFML\Audio\SoundStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GLOBAL_DEFINITIONS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\States\SplashState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleSfmlEngine\logic\Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="openal32.dll" />
+    <None Include="sfml-audio-2.dll" />
+    <None Include="sfml-audio-d-2.dll" />
+    <None Include="sfml-graphics-2.dll" />
+    <None Include="sfml-graphics-d-2.dll" />
+    <None Include="sfml-network-2.dll" />
+    <None Include="sfml-network-d-2.dll" />
+    <None Include="sfml-system-2.dll" />
+    <None Include="sfml-system-d-2.dll" />
+    <None Include="sfml-window-2.dll" />
+    <None Include="sfml-window-d-2.dll" />
+    <None Include="Resources\shaders\pixelate.shader" />
+    <None Include="Dependencies\x64\SFML\include\SFML\System\String.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\x64\SFML\include\SFML\System\Thread.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\x64\SFML\include\SFML\System\ThreadLocalPtr.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\x64\SFML\include\SFML\System\Utf.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\x64\SFML\include\SFML\System\Vector2.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\x64\SFML\include\SFML\System\Vector3.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\x64\SFML\include\SFML\Graphics\Glsl.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\x64\SFML\include\SFML\Graphics\Rect.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\x64\SFML\include\SFML\Audio\SoundFileFactory.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="Dependencies\x64\SFML\lib\sfml-audio-d.pdb" />
+    <None Include="Dependencies\x64\SFML\lib\sfml-audio-s-d.pdb" />
+    <None Include="Dependencies\x64\SFML\lib\sfml-graphics-d.pdb" />
+    <None Include="Dependencies\x64\SFML\lib\sfml-graphics-s-d.pdb" />
+    <None Include="Dependencies\x64\SFML\lib\sfml-network-d.pdb" />
+    <None Include="Dependencies\x64\SFML\lib\sfml-network-s-d.pdb" />
+    <None Include="Dependencies\x64\SFML\lib\sfml-system-d.pdb" />
+    <None Include="Dependencies\x64\SFML\lib\sfml-system-s-d.pdb" />
+    <None Include="Dependencies\x64\SFML\lib\sfml-window-d.pdb" />
+    <None Include="Dependencies\x64\SFML\lib\sfml-window-s-d.pdb" />
+    <None Include="Dependencies\x64\SFML\lib\static-std\sfml-audio-s-d.pdb" />
+    <None Include="Dependencies\x64\SFML\lib\static-std\sfml-graphics-s-d.pdb" />
+    <None Include="Dependencies\x64\SFML\lib\static-std\sfml-network-s-d.pdb" />
+    <None Include="Dependencies\x64\SFML\lib\static-std\sfml-system-s-d.pdb" />
+    <None Include="Dependencies\x64\SFML\lib\static-std\sfml-window-s-d.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\fonts\ka1.ttf" />
+    <Font Include="Resources\fonts\tutorialFont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Dependencies\x64\SFML\lib\flac.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\freetype.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\jpeg.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\ogg.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\openal32.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-audio.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-audio-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-audio-s.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-audio-s-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-graphics.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-graphics-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-graphics-s.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-graphics-s-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-main.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-main-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-network.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-network-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-network-s.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-network-s-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-system.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-system-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-system-s.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-system-s-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-window.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-window-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-window-s.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\sfml-window-s-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\vorbis.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\vorbisenc.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\vorbisfile.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\flac.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\freetype.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\jpeg.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\ogg.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\openal32.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\sfml-audio-s.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\sfml-audio-s-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\sfml-graphics-s.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\sfml-graphics-s-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\sfml-main.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\sfml-main-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\sfml-network-s.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\sfml-network-s-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\sfml-system-s.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\sfml-system-s-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\sfml-window-s.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\sfml-window-s-d.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\vorbis.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\vorbisenc.lib" />
+    <Library Include="Dependencies\x64\SFML\lib\static-std\vorbisfile.lib" />
+  </ItemGroup>
 </Project>
