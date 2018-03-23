@@ -2,6 +2,7 @@
 #include "SplashState.hpp"
 #include "../GLOBAL_DEFINITIONS.hpp"
 
+
 namespace sse
 {
 	SplashState::SplashState(GameDataRef data)
