@@ -261,6 +261,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".clang-tidy" />
+    <None Include="Dependencies.zip" />
     <None Include="Dependencies\x64\SFML\include\SFML\Audio\SoundFileFactory.inl" />
     <None Include="Dependencies\x64\SFML\include\SFML\Graphics\Glsl.inl" />
     <None Include="Dependencies\x64\SFML\include\SFML\Graphics\Rect.inl" />

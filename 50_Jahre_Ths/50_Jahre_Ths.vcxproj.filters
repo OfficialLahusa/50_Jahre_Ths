@@ -422,6 +422,7 @@
     <None Include="Dependencies\x64\SFML\lib\static-std\sfml-system-s-d.pdb" />
     <None Include="Dependencies\x64\SFML\lib\static-std\sfml-window-s-d.pdb" />
     <None Include=".clang-tidy" />
+    <None Include="Dependencies.zip" />
   </ItemGroup>
   <ItemGroup>
     <Font Include="Resources\fonts\ka1.ttf" />
