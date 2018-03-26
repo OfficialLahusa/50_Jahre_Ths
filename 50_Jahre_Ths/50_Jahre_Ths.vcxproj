@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -252,11 +252,15 @@
     <ClInclude Include="SimpleSfmlEngine\logic\random.hpp" />
     <ClInclude Include="SimpleSfmlEngine\utils.hpp" />
     <ClInclude Include="src\GLOBAL_DEFINITIONS.hpp" />
+    <ClInclude Include="src\ReadandWrite.hpp" />
+    <ClInclude Include="src\States\MainMenuState.hpp" />
     <ClInclude Include="src\States\SplashState.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SimpleSfmlEngine\logic\Collision.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\ReadandWrite.cpp" />
+    <ClCompile Include="src\States\MainMenuState.cpp" />
     <ClCompile Include="src\States\SplashState.cpp" />
   </ItemGroup>
   <ItemGroup>

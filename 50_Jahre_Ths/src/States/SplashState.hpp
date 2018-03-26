@@ -2,6 +2,7 @@
 
 #include "../../SimpleSfmlEngine/engine.hpp"
 #include <SFML/Graphics.hpp>
+#include "MainMenuState.hpp"
 
 namespace sse
 {

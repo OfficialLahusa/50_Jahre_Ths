@@ -354,6 +354,12 @@
     <ClInclude Include="src\GLOBAL_DEFINITIONS.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\States\MainMenuState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ReadandWrite.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -363,6 +369,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SimpleSfmlEngine\logic\Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\States\MainMenuState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ReadandWrite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

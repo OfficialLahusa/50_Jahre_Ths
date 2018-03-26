@@ -22,6 +22,7 @@ namespace sse
 		m_background.setTexture(m_data->assets.GetTexture("logo"));
 		m_data->assets.GetShader("pixelate").setUniform("texture", sf::Shader::CurrentTexture);
 		m_background.setScale({ (float)m_data->window.getSize().x / m_data->assets.GetTexture("logo").getSize().x, (float)m_data->window.getSize().y / m_data->assets.GetTexture("logo").getSize().y });
+		
 		return true;
 	}
 
@@ -42,6 +43,8 @@ namespace sse
 
 	bool SplashState::Update(float dt)
 	{
+		
+
 		if (m_pixel_threshold > 0.0f)
 		{
 			m_pixel_threshold -= 0.025f * dt;
@@ -52,6 +55,11 @@ namespace sse
 		}
 		
 		m_data->assets.GetShader("pixelate").setUniform("pixel_threshold", m_pixel_threshold);
+
+		if (m_clock.getElapsedTime().asSeconds() > 5)
+		{
+			m_data->machine.AddState(std::unique_ptr<MainMenuState>(new MainMenuState(m_data)));
+		}
 
 		return true;
 	}
