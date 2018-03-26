@@ -26,7 +26,7 @@ namespace sse
 	public:
 		Game(const std::string& title, const std::function<void(GameDataRef data)>& runState)
 		{
-			this->m_data->window.create(sf::VideoMode(sf::VideoMode::getDesktopMode().width, sf::VideoMode::getDesktopMode().height), title, sf::Style::Close | sf::Style::Titlebar | sf::Style::Resize);
+			this->m_data->window.create(sf::VideoMode(1280, 720), title, sf::Style::Default | sf::Style::Titlebar | sf::Style::Close);
 			this->m_data->window.setVerticalSyncEnabled(true);
 
 			runState(this->m_data);

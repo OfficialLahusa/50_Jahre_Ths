@@ -59,6 +59,9 @@ namespace sse
 			{
 				m_data->window.close();
 			}
+			if (evnt.type == sf::Event::Resized) {
+				m_data->window.setSize(sf::Vector2u(evnt.size.width, evnt.size.height));
+			}
 			if (EingabeLäuft)
 			{
 				if (evnt.type == sf::Event::TextEntered)
